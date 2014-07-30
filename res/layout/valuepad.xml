@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/valuepad_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/person" />
+
+    <TextView
+        android:id="@+id/valuepad_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/valuepad_value"
+        android:layout_alignRight="@+id/valuepad_value"
+        android:text="@string/value" />
+
+    <EditText
+        android:id="@+id/valuepad_value"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/valuepad_label1"
+        android:gravity="right"
+        android:inputType="numberDecimal" />
+
+    <ImageButton
+        android:id="@+id/valuepad_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valuepad_label1"
+        android:layout_toLeftOf="@+id/valuepad_value"
+        android:onClick="on_bSelectContact_clicked"
+        android:src="@drawable/addressbook" />
+
+    <AutoCompleteTextView
+        android:id="@+id/valuepad_person"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valuepad_label1"
+        android:layout_toLeftOf="@+id/valuepad_value2"
+        android:completionThreshold="1"
+        android:hint="@string/person"
+        android:singleLine="true" />
+
+    <!-- <Spinner -->
+    <!-- android:id="@+id/valuepad_type" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@+id/valuepad_value" -->
+    <!-- android:hint="Typ" /> -->
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="currency_list">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>PLN</item>
+        <item>Brak</item>
+    </string-array>
+
+</resources>

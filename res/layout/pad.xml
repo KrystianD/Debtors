@@ -1,0 +1,66 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dfdsfdsf"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60sp"
+            android:onClick="on_b10p_clicked"
+            android:text="+10"
+            android:width="60sp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60sp"
+            android:onClick="on_b1p_clicked"
+            android:text="+1"
+            android:width="60sp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60sp"
+            android:onClick="on_b01p_clicked"
+            android:text="+0.1"
+            android:width="60sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60sp"
+            android:onClick="on_b10m_clicked"
+            android:text="-10"
+            android:width="60sp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60sp"
+            android:onClick="on_b1m_clicked"
+            android:text="-1"
+            android:width="60sp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60sp"
+            android:onClick="on_b01m_clicked"
+            android:text="-0.1"
+            android:width="60sp" />
+    </TableRow>
+
+</TableLayout>
