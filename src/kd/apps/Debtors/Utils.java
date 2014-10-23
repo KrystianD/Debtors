@@ -19,7 +19,7 @@ public class Utils
 
 	public static String resReadFile(Context ctx, int id) throws IOException
 	{
-		InputStream file = ctx.getResources().openRawResource(R.raw.sql);
+		InputStream file = ctx.getResources().openRawResource(id);
 		BufferedReader read = new BufferedReader(new InputStreamReader(file));
 
 		String str = "";
